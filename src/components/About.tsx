@@ -19,7 +19,7 @@ function About() {
                     </div>
                     <div className="bg-gray-900 p-6 rounded-lg shadow-md flex flex-col items-center">
                         <FaTasks size={40} className="text-blue-400 mb-4" />
-                        <div className="text-blue-400 text-5xl font-bold mb-4">7</div>
+                        <div className="text-blue-400 text-5xl font-bold mb-4">7+</div>
                         <p className="text-gray-300">Projects Worked In</p>
                     </div>
                     <div className="bg-gray-900 p-6 rounded-lg shadow-md flex flex-col items-center">
