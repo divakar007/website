@@ -10,7 +10,7 @@ function Projects() {
                 "A campus navigation and event management application with real-time tracking.",
             technologies: ["React", "Spring Boot", "MongoDB", "AWS"],
             link: "https://github.com/divakar007/Uninav",
-            webLink: "https://uninav-demo.com", // Replace with actual URL
+            webLink: "https://uninav-git-development-final-divakar007s-projects.vercel.app/uninav",
             image: uninav,
         },
         {
@@ -19,7 +19,7 @@ function Projects() {
                 "A food donation platform connecting restaurants with NGOs to reduce food waste.",
             technologies: ["Java", "Spring Boot", "React", "MSSQL"],
             link: "https://github.com/divakar007/CaringPlates",
-            webLink: "https://caringplates-demo.com", // Replace with actual URL
+            webLink: "https://caringplates-demo.com",
             image: caringplates,
         },
         {
@@ -28,7 +28,7 @@ function Projects() {
                 "A bookstore platform offering a seamless shopping experience with secure checkout.",
             technologies: ["Java", "Spring Boot", "React", "MSSQL"],
             link: "https://github.com/divakar007/E-commerce-website-for-a-bookstore",
-            webLink: "https://bookstore-demo.com", // Replace with actual URL
+            webLink: "https://bookstore-demo.com",
             image: bookstore,
         },
     ];
