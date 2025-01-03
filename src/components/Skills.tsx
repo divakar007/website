@@ -13,7 +13,7 @@ import {
     SiCss3,
     SiOracle,
     SiMysql,
-    SiTailwindcss
+    SiTailwindcss, SiTensorflow, SiPandas, SiScikitlearn, SiNumpy, SiStreamlit
 } from "react-icons/si";
 
 import { FaJava, FaTasks, FaCloud } from "react-icons/fa";
@@ -43,10 +43,14 @@ function Skills() {
                 { name: "REST APIs", icon: <SiReact size={24} /> },
                 { name: "Microservices", icon: <SiReact size={24} /> },
                 { name: "Hibernate", icon: <SiReact size={24} /> },
-                // { name: "Kafka", icon: <SiKafka size={24} /> },
                 { name: "Jenkins", icon: <SiJenkins size={24} /> },
                 { name: "Docker", icon: <SiDocker size={24} /> },
                 { name: "Redis", icon: <SiRedis size={24} /> },
+                { name: "Tensorflow", icon: <SiTensorflow size={24} /> },
+                { name: "Pandas", icon: <SiPandas size={24} /> },
+                { name: "Sklearn", icon: <SiScikitlearn size={24} /> },
+                { name: "Numpy", icon: <SiNumpy size={24} /> },
+                { name: "Streamlit", icon: <SiStreamlit size={24} /> },
             ],
         },
         {

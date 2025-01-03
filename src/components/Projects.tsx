@@ -1,6 +1,9 @@
 import uninav from "../assets/img/projects/uninav.png";
 import caringplates from "../assets/img/projects/caringplates.png";
 import bookstore from "../assets/img/projects/bookstore.png";
+import spamdetection from "../assets/img/projects/spam-detection.png";
+import carpricesanalysis from "../assets/img/projects/carpricesanalysis.png";
+import cardetection from "../assets/img/projects/cardetection.png";
 
 function Projects() {
     const projectData = [
@@ -31,6 +34,30 @@ function Projects() {
             webLink: "https://bookstore-demo.com",
             image: bookstore,
         },
+        {
+            title: "Video-Based Vehicle Detection and Counting",
+            description: "Developed a vehicle detection and counting system using video processing techniques. The project utilized OpenCV and Python for real-time traffic analysis, with applications in traffic management and congestion monitoring.",
+            technologies: ["Python", "OpenCV", "NumPy"],
+            link: "https://github.com/divakar007/vedio-based-vehicle-counting",
+            webLink: "https://github.com/divakar007/vedio-based-vehicle-counting",
+            image: cardetection,
+        },
+        {
+            title: "SMS Spam Detection using Deep Learning",
+            description: "Built a spam detection system for SMS messages using Dense Network, LSTM, and Bi-LSTM architectures. Compared and evaluated model accuracy to select the best-performing architecture.",
+            technologies: ["Python", "TensorFlow 2", "Streamlit"],
+            link: "https://github.com/divakar007/spam-detection-using-NLP",
+            liveDemo: "https://github.com/divakar007/spam-detection-using-NLP",
+            image: spamdetection,
+        },
+        {
+            title: "Comprehensive Analysis of Car Prices Dataset",
+            description: "Performed an in-depth analysis of a large car sales dataset (558,837 records) to derive insights into pricing factors and develop predictive models. Applied regression, classification, and clustering techniques for actionable insights.",
+            technologies: ["Python", "pandas", "NumPy", "scikit-learn", "Random Forest", "PCA", "SMOTE"],
+            link: "https://github.com/divakar007/COMPREHENSIVE-ANALYSIS-OF-CAR-PRICES-DATASET",
+            liveDemo: "https://github.com/divakar007/COMPREHENSIVE-ANALYSIS-OF-CAR-PRICES-DATASET",
+            image: carpricesanalysis
+        }
     ];
 
     return (
