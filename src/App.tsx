@@ -12,7 +12,7 @@ function Footer() {
   return (
       <footer className="bg-gray-900 border-t border-gray-800 py-8">
         <div className="container mx-auto px-4 text-center text-gray-400">
-          <p>© 2024 Divakara Rao Annepu. All rights reserved.</p>
+          <p>© 2025 Divakara Rao Annepu. All rights reserved.</p>
         </div>
       </footer>
   );

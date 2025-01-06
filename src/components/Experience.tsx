@@ -36,9 +36,12 @@ function Experience() {
                             </h3>
                             <p className="text-blue-400 font-medium">{experience.company}</p>
                             <p className="text-gray-400 text-sm">{experience.duration}</p>
-                            <ul className="mt-4 space-y-2 text-gray-300 list-disc list-inside">
+                            <ul className="mt-4 space-y-3 text-gray-300 list-disc list-inside marker:text-blue-500">
                                 {experience.details.map((detail, i) => (
-                                    <li key={i}>{detail}</li>
+                                    <li key={i}
+                                        className="pl-2 leading-relaxed hover:text-blue-400 transition-colors duration-200">
+                                        {detail}
+                                    </li>
                                 ))}
                             </ul>
                         </div>
