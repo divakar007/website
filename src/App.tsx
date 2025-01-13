@@ -7,6 +7,8 @@ import Projects from "./components/Projects.tsx";
 import Skills from "./components/Skills.tsx";
 import Testimonials from "./components/Testimonials.tsx";
 import Header from "./components/Header.tsx";
+import { Analytics } from "@vercel/analytics/react"
+
 // Footer Component
 function Footer() {
   return (
@@ -33,6 +35,7 @@ function App() {
         <Testimonials />
         <Contact />
         <Footer />
+          <Analytics />
       </div>
   );
 }
